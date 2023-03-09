@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Zad 9</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <p id="nick-display"></p>
+  <p id="licznik">0</p>
+  <div id="outer" class="pointer">
+    <div id="inner"></div>
+  </div>
+  <div id="modal">
+    <div class="modal-content">
+      <form>
+        <label for="nick">Podaj nick:</label>
+        <input type="text" name="nick" id="nickinput">
+        <input type="button" value="OK" id="modalok">
+      </form>
+    </div>
+  </div>
+  <div id="modal2">
+    <div class="modal-content2">
+      <span class="close">&times;</span>
+      <h2>Koniec Gry!</h2>
+      <p id="gameinfo">Score: </p>
+      <h3>Ranking:</h2>
+      <ol></ol>
+    </div>
+  </div>
+</body>
+</html>
